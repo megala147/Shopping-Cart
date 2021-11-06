@@ -1,0 +1,22 @@
+<nav class="navbar navbar-light bg-primary">
+  <div class="container-fluid">
+    <div class="navbar-brand text-white d-flex">
+      <i style="font-size: 40px" class="fas fa-shipping-fast"></i>&nbsp;
+      <strong>FlipCart</strong>
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="search anything.."
+        />
+      </div>
+      <i class="fas fa-search"></i>
+    </div>
+    <button class="btn btn-primary" routerLink="/cart">
+      <i style="font-size: 30px" class="fas fa-cart-plus"></i>
+      <div style="font-size: 10px" class="badge btn-danger">
+        {{ totalItem }}
+      </div>
+    </button>
+  </div>
+</nav>

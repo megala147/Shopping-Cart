@@ -1,0 +1,10 @@
+.form-control {
+  width: 600px;
+  margin-left: 20px;
+}
+.fa-search {
+  color: blue;
+  position: relative;
+  right: 30px;
+  top: 9px;
+}
